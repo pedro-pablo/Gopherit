@@ -20,7 +20,7 @@ public enum GopherEntityType
     INFORMATION('i'),
     SOUND_FILE('s');
 
-    private char associatedChar;
+    private final char associatedChar;
 
     GopherEntityType(char c) {
         this.associatedChar = c;

@@ -25,7 +25,7 @@ class BookmarkStage extends ParentStage {
 
     private static final String BOOKMARKS_FILENAME = "bookmarks.db";
 
-    private ObservableList<GopherEntity> bookmarks;
+    private final ObservableList<GopherEntity> bookmarks;
 
     private GopherEntity selectedBookmark;
     private final TextField txtHost;
